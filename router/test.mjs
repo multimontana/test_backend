@@ -1,6 +1,8 @@
 import express from 'express';
 const router = express.Router();
-router.get('/test', (req, res) =>{
-    res.send("test");
+
+router.get('/test', function(req, res, next) {
+    res.send('sad');
 });
+
 export default router

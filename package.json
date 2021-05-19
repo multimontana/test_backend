@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.mjs",
   "scripts": {
-    "start": "nodemon --experimental-modules server.mjs"
+    "start": "nodemon --experimental-modules --legacy-watch server.mjs"
   },
   "author": "",
   "license": "ISC",
